@@ -27,7 +27,7 @@ namespace _03._Legendary_Farming_
                         activationKey = keys.ToString();
                         if (activationKey.Contains(substring))
                         {
-                            Console.WriteLine($"{activationKey} costains {substring}.");
+                            Console.WriteLine($"{activationKey} contains {substring}");
                         }
                         else
                         {
